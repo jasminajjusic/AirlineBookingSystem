@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: url("1.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  min-height: 100vh;
+  padding: 30px;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  margin-bottom: 40px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  padding: 10px 25px;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+nav ul li a:hover {
+  background: #ff5e57;
+  transform: scale(1.1);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.flight {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  border-left: 8px solid #ff5e57;
+  border-radius: 25px;
+  padding: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.35);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.flight:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}
+
+.flight .flight-details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.flight .flight-details span {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.flight .buy-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buy-button button {
+  padding: 14px 28px;
+  background: #ff5e57;
+  border: none;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.buy-button button:hover {
+  background: #ff2e2b;
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 768px) {
+  .flight {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .flight .buy-button {
+    width: 100%;
+    margin-top: 15px;
+  }
+  .buy-button button {
+    width: 100%;
+    text-align: center;
+  }
+}
