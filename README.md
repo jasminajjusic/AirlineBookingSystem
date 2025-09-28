@@ -42,6 +42,13 @@ The system allows user and admin registration/login, with different functionalit
 ---
 
 
-## Figma (screenshots)
+## 📸 Screenshots
 
-https://www.figma.com/design/xU6xUxhSmKSA4cCkjocW1w/Airline?t=xidUCx2aRn437iV7-0
+Here is an example of the app:
+
+![App Screenshot](images/airline.png)
+
+👉 More  screens are available on the following Figma link:  
+[Figma Project Link](https://www.figma.com/design/xU6xUxhSmKSA4cCkjocW1w/Airline?t=xidUCx2aRn437iV7-0)
+
+
