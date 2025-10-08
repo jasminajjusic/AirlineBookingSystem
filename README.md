@@ -1,14 +1,14 @@
-# Airline Booking System ✈️
+# Airline Booking System 
 
-## 📌 Project Description
+##  Project Description
 Airline Booking System is a web application built with **PHP, HTML, and CSS**, using **phpMyAdmin** as the database management tool.  
 The system allows user and admin registration/login, with different functionalities based on account type.  
 
 ---
 
-## ⚙️ Features
+##  Features
 
-### 👤 User
+###  User
 - Register and log in
 - View available flights
 - Book flights
@@ -16,14 +16,14 @@ The system allows user and admin registration/login, with different functionalit
 - Contact the company via **Contact page**
 - View company information on the **About page**
 
-### 🛠️ Admin
+###  Admin
 - Log in as admin
 - Add new flights
 - Manage existing flights
 
 ---
 
-## 🗄️ Database
+##  Database
 - Database created with **phpMyAdmin**
 - Main tables:
   - `users` – stores user and admin accounts
@@ -33,7 +33,7 @@ The system allows user and admin registration/login, with different functionalit
 
 ---
 
-## 🚀 Technologies
+##  Technologies
 - **Frontend**: HTML5, CSS3  
 - **Backend**: PHP  
 - **Database**: MySQL (via phpMyAdmin)  
@@ -42,13 +42,13 @@ The system allows user and admin registration/login, with different functionalit
 ---
 
 
-## 📸 Screenshots
+##  Screenshots
 
 Here is an example of the app:
 
 ![App Screenshot](images/airline.png)
 
-👉 More  screens are available on the following Figma link:  
+ More  screens are available on the following Figma link:  
 [Figma Project Link](https://www.figma.com/design/xU6xUxhSmKSA4cCkjocW1w/Airline?t=xidUCx2aRn437iV7-0)
 
 
